@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body class="flex items-center  ">
+    <div class="w-1 h-[500px] bg-[#000f2e54] ml-9"></div>
+    <div class="h-max w-[600px] flex flex-col gap-2 ml-9">
+        <h1 class="text-[4rem] js font-bold text-[rgba(248,248,248,0.77)]">JAVA SCRIPT</h1> 
+        <h2 class="text-3xl tit tracking-wider  text-[#012677] font-semibold ">Check Your Age </h2>
+        <div class="w-[70%] bd border-[1.2rem] border-[#eae7e766] rounded-xl flex gap-1 mt-5">
+            <input type="text" id="Input" oninput="hyp()" class="px-5 py w-full border-none outline-none rounded-sm" placeholder="dd-mm-yyyy" onclick="reset()">
+            
+        </div>
+        <button class="w-[8rem] bg-yellow-400 py-1 text-xl rounded-md" onclick="checker()">CHECK</button>
+        <p class="mt-9 text-xl text-[#0b3a38] font-semibold tog">you are <span class="text-3xl text-[#012677] font-bold year underline c">0</span> years <span class="text-3xl text-[#012677] mon font-bold underline c">0</span> months <span class="text-3xl text-[#012677] day font-bold underline c">0</span> days old </p>
+        </div>
+
+        
+
+   
+    <script src="./index.js"></script>
+</body>
+
+</html>
